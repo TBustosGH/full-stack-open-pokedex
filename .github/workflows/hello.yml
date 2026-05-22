@@ -18,10 +18,10 @@ jobs:
     steps:
         - name: Now it is
           run: |
-            echo date
+            date
   directory_content_job:
     runs-on: ubuntu-latest
     steps:
         - name: Directory content
           run: |
-            echo ls -l
+            ls -l
